@@ -48,19 +48,19 @@ void print_tile_data(int n, const std::vector<std::vector<Tile>>& tiles) {
     }
 }
 
-bool DP(int n, int H, const std::vector<std::vector<Tile>>& tiles) {
-    // TODO
-    // Placeholder function - implement your logic here
-    // Your code to check whether it is possible to reach the bottom-right
-    // corner without running out of HP should go here.
-    // You should use dynamic programming to solve the problem.
-    // Return true if possible, false otherwise.
-    
-    // By default, we return false
-    // TODO you should change this
-    bool res = false;
-    return res;
-}
+//bool DP(int n, int H, const std::vector<std::vector<Tile>>& tiles) {
+//    // TODO
+//    // Placeholder function - implement your logic here
+//    // Your code to check whether it is possible to reach the bottom-right
+//    // corner without running out of HP should go here.
+//    // You should use dynamic programming to solve the problem.
+//    // Return true if possible, false otherwise.
+//
+//    // By default, we return false
+//    // TODO you should change this
+//    bool res = false;
+//    return res;
+//}
 
 void write_output_file(const std::string& output_file_name, bool result) {
     std::ofstream file(output_file_name);
